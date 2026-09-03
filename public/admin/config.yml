@@ -1,1 +1,20 @@
 # Decap CMS backend and collections will be configured in the next setup steps.
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/images/blog"
+public_folder: "/images/blog"
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/content/blog"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    fields: 
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
