@@ -4,8 +4,8 @@ title: "2026 Q1 Update: Unemployment, Volunteering, and Star Wars"
 description: I entered my Unemployment Era at the end of January when Amazon
   abruptly laid me off. Notes on that and some other things I have been doing
   since then.
-date: 2026-03-15T10:01:00.000-04:00
-thumbnail: /images/blog/pxl_20260315_164222149~3.jpg
+pubDate: "2026-03-15T10:01:00.000-04:00"
+heroImage: /images/blog/pxl_20260315_164222149~3.jpg
 ---
 ## Unemployment
 

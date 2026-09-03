@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import BaseLayout from "./BaseLayout.astro";
@@ -25,7 +24,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			heroImage && (
 				<figure>
 					<>
-						<Image src={heroImage} width={900} height={600} alt="" />
+						<img src={heroImage} width="900" height="600" alt="" />
 						<figcaption>{description}</figcaption>
 					</>
 				</figure>
