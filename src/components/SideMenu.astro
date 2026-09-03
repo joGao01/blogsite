@@ -1,0 +1,67 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+---
+
+<aside id="site-menu" class="side-menu" aria-hidden="true" data-open="false">
+	<button class="menu-close" type="button" aria-label="Close navigation"
+		>×</button
+	>
+	<nav aria-label="Primary navigation">
+		<ul>
+			<li><HeaderLink href="/">Home</HeaderLink></li><li>
+				<HeaderLink href="/blog">Blog</HeaderLink>
+			</li><li><HeaderLink href="/art">Art</HeaderLink></li><li>
+				<HeaderLink href="/about">About</HeaderLink>
+			</li>
+		</ul>
+	</nav>
+</aside>
+<style>
+	.side-menu {
+		position: fixed;
+		z-index: 20;
+		inset: 0 auto 0 0;
+		width: min(18rem, 78vw);
+		padding: var(--space-4);
+		background: var(--color-blue-light);
+		color: var(--color-ink);
+		box-shadow: var(--shadow);
+		transform: translateX(-105%);
+		transition: transform 220ms ease-out;
+	}
+	.side-menu[data-open="true"] {
+		transform: translateX(0);
+	}
+	.menu-close {
+		display: block;
+		margin-left: auto;
+		border: 0;
+		background: transparent;
+		color: var(--color-ink);
+		font-size: 2.5rem;
+		line-height: 1;
+		cursor: pointer;
+	}
+	ul {
+		margin: var(--space-4) 0 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: var(--space-4);
+	}
+	li :global(a) {
+		color: var(--color-ink);
+		font-family: var(--font-title);
+		font-size: 2.2rem;
+		text-decoration: none;
+	}
+	li :global(a.active) {
+		text-decoration: underline;
+		text-underline-offset: 0.2em;
+	}
+	/*@media (prefers-reduced-motion: reduce) {
+		.side-menu {
+			transition: none;
+		}
+	}*/
+</style>

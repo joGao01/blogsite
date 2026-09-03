@@ -31,5 +31,37 @@ export default defineConfig({
 				],
 			},
 		},
+		{
+			provider: fontProviders.local(),
+			name: 'IM FELL DW Pica SC',
+			cssVariable: '--font-im-fell-dw',
+			fallbacks: ['serif'],
+			options: {
+				variants: [
+					{
+						src: ['./src/assets/fonts/IMFellDWPicaSC-Regular.ttf'],
+						weight: 400,
+						style: 'normal',
+						display: 'swap',
+					},
+				],
+			},
+		},
+		{
+			provider: fontProviders.local(),
+			name: 'Cuprum',
+			cssVariable: '--font-cuprum',
+			fallbacks: ['sans-serif'],
+			options: {
+				variants: [
+					{
+						src: ['./src/assets/fonts/Cuprum-VariableFont_wght.ttf'],
+						weight: '400 700',
+						style: 'normal',
+						display: 'swap',
+					},
+				],
+			},
+		},
 	],
 });

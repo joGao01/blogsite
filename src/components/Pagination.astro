@@ -1,0 +1,83 @@
+---
+interface Props {
+	currentPage: number;
+	totalPages: number;
+}
+const { currentPage, totalPages } = Astro.props;
+const urlFor = (page: number) => (page === 1 ? "/blog" : `/blog/${page}`);
+---
+
+{
+	totalPages > 1 && (
+		<nav class="pagination" aria-label="Blog pages">
+			{currentPage > 1 ? (
+				<a href={urlFor(currentPage - 1)}>
+					← <span>Previous</span>
+				</a>
+			) : (
+				<span class="disabled" aria-disabled="true">
+					← <span>Previous</span>
+				</span>
+			)}
+			<label>
+				<>
+					<span class="sr-only">Current blog page</span>
+					<select class="page-select" aria-label="Choose a blog page">
+						{Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+							<option value={urlFor(page)} selected={page === currentPage}>
+								{page}
+							</option>
+						))}
+					</select>
+				</>
+			</label>
+			{currentPage < totalPages ? (
+				<a href={urlFor(currentPage + 1)}>
+					<span>Next</span> →
+				</a>
+			) : (
+				<span class="disabled" aria-disabled="true">
+					<span>Next</span> →
+				</span>
+			)}
+		</nav>
+	)
+}
+<script>
+	document
+		.querySelectorAll<HTMLSelectElement>(".page-select")
+		.forEach((select) =>
+			select.addEventListener("change", () =>
+				window.location.assign(select.value),
+			),
+		);
+</script>
+<style>
+	.pagination {
+		display: grid;
+		grid-template-columns: 1fr 7.5rem 1fr;
+		align-items: center;
+		gap: var(--space-3);
+		margin-top: var(--space-5);
+		color: white;
+	}
+	.pagination a,
+	.disabled {
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		font-size: 0.95rem;
+	}
+	.disabled {
+		opacity: 0.45;
+	}
+	select {
+		width: 100%;
+		padding: 0.7rem 0.9rem;
+		border: 1px solid var(--color-border);
+		border-radius: 0.55rem;
+		background: white;
+		color: var(--color-text);
+		font: inherit;
+	}
+</style>

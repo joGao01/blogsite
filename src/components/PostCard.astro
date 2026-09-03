@@ -1,0 +1,117 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import FormattedDate from "./FormattedDate.astro";
+interface Props {
+	image?: ImageMetadata;
+	title: string;
+	description: string;
+	pubDate: Date;
+	href: string;
+}
+const { image, title, description, pubDate, href } = Astro.props;
+---
+
+<article class="post-card">
+	<a class="image-link" href={href} aria-label={`Read ${title}`}
+		>{
+			image ? (
+				<Image src={image} width={680} height={680} alt="" loading="lazy" class="fade-image"/>
+			) : (
+				<span class="image-placeholder" aria-hidden="true" />
+			)
+		}</a
+	>
+	<div class="post-card-body">
+		<h2><a href={href}>{title}</a></h2>
+		<p>{description}</p>
+		<FormattedDate
+			date={pubDate}
+		/>
+	</div>
+</article>
+<script>
+	// TODO: fade in isn't working yet
+	document.querySelectorAll<HTMLImageElement>(".fade-image").forEach((image) => {
+		const reveal = () => image.classList.add("is-loaded");
+
+		if (image.complete) {
+			reveal();
+		} else {
+			image.addEventListener("load", reveal, { once: true });
+		}
+	});
+</script>
+<style>
+	.post-card {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+		background: var(--color-paper);
+		color: var(--color-text);
+		padding: var(--space-3);
+		box-shadow: var(--shadow);
+	}
+	.post-card-body {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+	.image-link {
+		display: block;
+		aspect-ratio: 1;
+		overflow: hidden;
+		background: var(--color-image-placeholder);
+	}
+	.image-link :global(img) {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 0;
+	}
+	.image-placeholder {
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: var(--color-image-placeholder)
+	}
+	.image-link :global(.fade-image) {
+		opacity: 0;
+		transition: opacity 1000ms ease;
+	}
+	.image-link :global(.fade-image.is-loaded) {
+		opacity: 1;
+	}
+	/*@media (prefers-reduced-motion: reduce) {
+		.image-link :global(.fade-image) {
+			opacity: 1;
+			transition: none;
+		}
+	}*/
+	h2 {
+		margin: var(--space-3) 0 var(--space-2);
+		font-family: var(--font-post-title);
+		font-size: clamp(1.75rem, 1.4rem + 1.25vw, 2.25rem);		font-weight: 400;
+		line-height: 1.15;
+	}
+	h2 a {
+		color: var(--color-ink);
+		text-decoration: none;
+	}
+	p {
+		margin: 0 0 var(--space-2);
+		height: calc(3 * 1.25em);
+		overflow: hidden;
+		font-size: var(--font-body-size);
+		line-height: 1.25;
+		-webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent);
+		mask-image: linear-gradient(to bottom, #000 70%, transparent);
+	}
+	.post-card-body :global(time) {
+		display: block;
+		margin-top: auto;
+		text-align: right;
+		color: var(--color-text-muted);
+	}
+</style>
