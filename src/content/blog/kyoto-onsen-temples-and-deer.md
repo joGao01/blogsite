@@ -139,9 +139,9 @@ At the conclusion of the workshop, Yoko-san took us on a brief walk to the nearb
 
 There was bamboo. We walked through a nice garden to get to it. That was about it. The bamboo forest was nice, but it was crowded and more of a photo-op spot than anything else.
 
-![](IMAGE_PLACEHOLDER_20)
+![](/images/blog/arashiyama.webp)
 
-![](IMAGE_PLACEHOLDER_21)
+![](/images/blog/arashiyama2.webp)
 
 There’s also a monkey park in the area, but we did not go because I do not have any strong feelings about monkeys.
 
@@ -149,12 +149,12 @@ There’s also a monkey park in the area, but we did not go because I do not hav
 
 * In Nara, my friends and I ate lunch at a cute cafe called [Kissa 52](https://maps.app.goo.gl/xfKyEsnK7cpommin9), where I had Pizza Toast for the first time. It seemed appalling in concept, but it was surprisingly delicious.
 
-![](IMAGE_PLACEHOLDER_22)
+![](/images/blog/pizzatoast.webp)
 
 * I drew a fortune (o-mikuji) at one of the 584543 shrines and temples I visited that informed me that getting a job would be difficult. Oh well..
 
-![](IMAGE_PLACEHOLDER_23)
+![](/images/blog/englishfortune.webp)
 
 * This suspicious-looking bathroom signage at the railway museum
 
-![](IMAGE_PLACEHOLDER_24)
+![](/images/blog/susbathroomsight.webp)
