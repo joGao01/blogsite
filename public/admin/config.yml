@@ -6,6 +6,11 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "public/images/blog"
 public_folder: "/images/blog"
+media_processing:
+  enabled: true
+  format:
+    enabled: true
+    default: webp
 collections:
   - name: "blog"
     label: "Blog"
