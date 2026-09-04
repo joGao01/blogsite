@@ -87,7 +87,7 @@ Nara is a quick ~30 minute train ride away from Kyoto, so my friends and I decid
 
 They were not kidding about the deer. There are deer everywhere.
 
-![my friend feeding a dear shika senbei](IMAGE_PLACEHOLDER_10)
+![my friend feeding a dear shika senbei](/images/blog/deer.webp)
 
 Visitors can buy special deer crackers (shika senbei) made of rice bran and flour to feed to the deer, which have learned across many, many generations to bow at visitors to solicit these crackers. I had mixed feelings about this, but I suppose this is a mutually beneficial relationship where the deer remain well-fed and visitors are entertained.  
 
@@ -97,19 +97,19 @@ Some of the deer get feisty, following you and nipping at your clothing even aft
 
 It was a Saturday, so Todaiji Temple was swarming with visitors. My friends and I paid to get into the Great Buddha Hall, which was [800yen](https://www.todaiji.or.jp/en/information/haikan/) ($5 USD). The Buddha statues are massive, which should come as no surprise based on the name of the Hall.
 
-![Todaiji Temple selfie. My friend's faces have been covered with emojis of their own choosing](IMAGE_PLACEHOLDER_12)
+![Todaiji Temple selfie. My friend's faces have been covered with emojis of their own choosing](/images/blog/pxl_20260411_061609996~2.webp)
 
 There are also stamps to collect, both in the Great Buddha Hall and the neighboring Todaiji Museum. The museum stamps are in the lobby, and you do not need to pay museum admission to get them.
 
-![Stamps from Todaiji Temple and Museum](IMAGE_PLACEHOLDER_13)
+![Stamps from Todaiji Temple and Museum](/images/blog/stamps.webp)
 
 ### Kyoto Railway Museum
 
 This is a fun interactive museum for train lovers. The museum itself is very child-friendly, but it can be enjoyed by train-enthusiasts of all ages. However, we visited it on a clear and sunny Sunday, so there were children everywhere.
 
-![View of first floor of Railway museum from second floor walkway. There are various trains on display](IMAGE_PLACEHOLDER_14)
+![View of first floor of Railway museum from second floor walkway. There are various trains on display](/images/blog/trains.webp)
 
-![Trainyard that is part of the Kyoto Railway Museum](IMAGE_PLACEHOLDER_15)
+![Trainyard that is part of the Kyoto Railway Museum](/images/blog/trains2.webp)
 
 My friend and I booked the driving simulator experience, which allows visitors to try out a machine that train operators use in training. I kept forgetting to brake in time and missed the station several times completely. It is probably good that I am not in this line of work.  
 
@@ -119,9 +119,9 @@ This temple is away from the main Kyoto area and only takes visitors by reservat
 
 The experience being writing mantras in the main building, and then taking a leisurely stroll through their peaceful moss garden. Their gardens are beautiful, and I would say this was my favorite temple experience in Kyoto.
 
-![Written mantra final result](IMAGE_PLACEHOLDER_16)
+![Written mantra final result](/images/blog/mantra.webp)
 
-![Saihoji Moss Garden](IMAGE_PLACEHOLDER_17)
+![Saihoji Moss Garden](/images/blog/saihoji.webp)
 
 ### Matsuda Seihon Bookbinding
 
@@ -129,9 +129,9 @@ My friends and I partook in a book-making workshop here to make our own Japanese
 
 The workshop and business are run by Tsutomu Matsuda-san and his daughter, Yoko Matsuda-san. Yoko-san taught the workshop in English, with the aid of her father. Tsutomu-san doesn’t speak English, but is incredibly skilled and knowledgeable.
 
-![](IMAGE_PLACEHOLDER_18)
+![](/images/blog/bookbinding.webp)
 
-![](IMAGE_PLACEHOLDER_19)
+![](/images/blog/bookbinding2.webp)
 
 At the conclusion of the workshop, Yoko-san took us on a brief walk to the nearby temple to get the first goshuin for our newly created stamp book. On the way there, she told us a little about the history of the neighborhood, and how Kyoto was known for the arts.
 
