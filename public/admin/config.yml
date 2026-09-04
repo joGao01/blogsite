@@ -1,6 +1,7 @@
 # Decap CMS backend and collections will be configured in the next setup steps.
 backend:
-  name: git-gateway
+  name: github
+  repo: jogao01/blogsite
   branch: main
 publish_mode: editorial_workflow
 media_folder: "public/images/blog"
