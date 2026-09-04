@@ -12,7 +12,7 @@
   --font-title: var(--font-im-fell-dw), Arial, sans-serif;
   --font-post-title: var(--font-cuprum), Arial, sans-serif;
   --font-title-size: clamp(2.125rem, 1.6rem + 2.2vw, 4.25rem);
-  --font-body-size: clamp(1rem, 0.96rem + 0.2vw, 2.525rem);
+  --font-body-size: clamp(1rem, 0.96rem + 0.2vw, 2.025rem);
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;

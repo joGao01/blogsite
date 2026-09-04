@@ -2,10 +2,47 @@
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import BaseLayout from "./BaseLayout.astro";
+import closeButton from "../assets/close-white.svg";
 import { SITE_TITLE } from "../consts";
 type Props = CollectionEntry<"blog">["data"];
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate } = Astro.props;
 ---
+
+<script>
+	const dialog = document.querySelector<HTMLDialogElement>(".image-lightbox");
+	const image = dialog?.querySelector<HTMLImageElement>(".lightbox-image");
+	const caption = dialog?.querySelector<HTMLElement>(".lightbox-caption");
+	const scrollLockClass = "lightbox-open";
+
+	dialog?.addEventListener("close", () => {
+		document.documentElement.classList.remove(scrollLockClass);
+	});
+
+	document.addEventListener("click", (event) => {
+		const target = event.target as HTMLElement;
+
+		const postImage = target.closest<HTMLImageElement>(".post-image");
+		if (postImage && dialog && image && caption) {
+			image.src = postImage.src;
+			image.alt = postImage.alt;
+
+			caption.textContent =
+				postImage.closest("figure")?.querySelector("figcaption")?.textContent ??
+				"";
+
+			document.documentElement.classList.add(scrollLockClass);
+			dialog.showModal();
+			return;
+		}
+
+		if (
+			target.closest(".lightbox-close") ||
+			(target === dialog && dialog.open)
+		) {
+			dialog?.close();
+		}
+	});
+</script>
 
 <BaseLayout title={SITE_TITLE} description={description} compactHeader>
 	<article class="blog-post">
@@ -22,10 +59,21 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		</header>
 		<div class="prose"><slot /></div><p class="signoff">Best,<br />Jo</p>
 	</article>
+	<dialog class="image-lightbox">
+		<button class="lightbox-close" type="button" aria-label="Close image"
+			><img src={closeButton.src}/></button
+		>
+		<img class="lightbox-image" alt="" />
+		<p class="lightbox-caption"></p>
+	</dialog>
 </BaseLayout>
 <style>
+	:global(html.lightbox-open) {
+		overflow: hidden;
+	}
+
 	.blog-post {
-		padding: var(--space-5);
+		padding: var(--space-4);
 		background: var(--color-blue-light);
 		min-height: 100vh;
 	}
@@ -47,21 +95,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		gap: var(--space-3);
 		font-size: var(--font-body-size);
 	}
-	figure {
-		margin: 0 0 var(--space-4);
-		padding: var(--space-3);
-		background: white;
-		box-shadow: var(--shadow);
-	}
-	figure :global(img) {
-		width: 100%;
-		border-radius: 0;
-	}
-	figcaption {
-		padding-top: var(--space-2);
-		text-align: center;
-		font-size: var(--font-body-size);
-	}
 	.prose {
 		line-height: 1.35;
 		font-size: var(--font-body-size);
@@ -71,17 +104,74 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		font-family: var(--font-heading);
 		font-weight: 700;
 	}
-	.prose :global(img) {
+	.prose :global(figure) {
 		width: 100%;
-		max-width: 48rem;
+		max-width: 35rem;
 		margin-inline: auto;
-		padding: var(--space-3);
+		padding: var(--space-2);
 		background: var(--color-paper);
 		border-radius: 0;
 		box-shadow: var(--shadow);
 	}
+	.prose :global(.post-figure figcaption) {
+		padding-top: var(--space-2);
+		text-align: center;
+		font-size: var(--font-body-size);
+	}
+	.prose :global(img:hover) {
+		cursor: pointer;
+	}
+	.prose :global(button) {
+		background: transparent;
+    border: 0;
+	}
+	dialog button {
+		display: block;
+		margin-left: auto;
+		border: 0;
+		background: transparent;
+	}
+	dialog button:hover {
+		cursor: pointer;
+	}
 	.signoff {
 		margin-top: var(--space-5);
 		font-size: var(--font-body-size);
+	}
+	.image-lightbox {
+		width: fit-content;
+		height: fit-content;
+		padding: 0;
+		border: 0;
+		background: transparent;
+	}
+	.image-lightbox::backdrop {
+		background: rgb(0 0 0 / 0.8);
+	}
+	.lightbox-image {
+		width: 100%;
+		max-height: 80vh;
+		object-fit: contain;
+	}
+	.lightbox-close {
+		/*position: absolute;*/
+		top: var(--space-2);
+		right: var(--space-2);
+		z-index: 1;
+	}
+	.lightbox-caption {
+		color: var(--color-paper)
+	}
+	.lightbox-caption:empty {
+		display: none;
+	} 
+	@media (min-width: 48rem) {
+		/* larger padding for tablet/desktop screens*/
+		.blog-post {
+			padding: var(--space-5);
+		}
+		.prose :global(figure) {
+			padding: var(--space-3);
+		}
 	}
 </style>

@@ -42,14 +42,52 @@ const { image, title, description, pubDate, href } = Astro.props;
 </script>
 <style>
 	.post-card {
+		--card-rotation: -1deg;
+		--card-translate-y: 0;
+		--card-shadow: var(--shadow);
+
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 		height: 100%;
-		background: var(--color-paper);
-		color: var(--color-text);
 		padding: var(--space-3);
-		box-shadow: var(--shadow);
+		color: var(--color-text);
+		background: var(--color-paper);
+		box-shadow: var(--card-shadow);
+		transform: translateY(var(--card-translate-y));
+		transition:
+			transform 200ms ease,
+			box-shadow 200ms ease;
+	}
+
+	/* Alternate the rotation direction between cards. */
+	:global(.post-grid > li:nth-child(even)) .post-card {
+		--card-rotation: 1deg;
+	}
+
+	/* Include focus-within for keyboard navigation. */
+	.post-card:focus-within {
+		--card-translate-y: -0.4rem;
+		--card-shadow: 0 0.75rem 1.25rem rgb(24 42 78 / 0.3);
+
+		z-index: 1;
+		transform:
+			translateY(var(--card-translate-y))
+			rotate(var(--card-rotation));
+	}
+
+	/* Only apply hover effects on devices that support hovering. */
+	@media (hover: hover) {
+		.post-card:hover {
+			--card-translate-y: -0.4rem;
+			--card-shadow: 0 0.75rem 1.25rem rgb(24 42 78 / 0.3);
+
+			z-index: 1;
+			transform:
+				translateY(var(--card-translate-y))
+				rotate(var(--card-rotation));
+		}
 	}
 	.post-card-body {
 		display: flex;
@@ -57,6 +95,7 @@ const { image, title, description, pubDate, href } = Astro.props;
 		flex-direction: column;
 	}
 	.image-link {
+		position: relative;
 		display: block;
 		aspect-ratio: 1;
 		overflow: hidden;
@@ -65,14 +104,21 @@ const { image, title, description, pubDate, href } = Astro.props;
 	.image-link :global(img) {
 		width: 100%;
 		height: 100%;
-		object-fit: cover;
-		border-radius: 0;
+		object-fit: cover;	
+	}
+	.image-link::after {
+		position: absolute;
+		z-index: 1;
+		inset: 0;
+		content: "";
+		pointer-events: none;
+		box-shadow: inset 0 0 1rem 0 rgb(24 42 78/0.35);
 	}
 	.image-placeholder {
 		display: block;
 		width: 100%;
 		height: 100%;
-		background-color: var(--color-image-placeholder)
+		background: var(--color-image-placeholder);
 	}
 	.image-link :global(.fade-image) {
 		opacity: 0;
@@ -81,16 +127,11 @@ const { image, title, description, pubDate, href } = Astro.props;
 	.image-link :global(.fade-image.is-loaded) {
 		opacity: 1;
 	}
-	/*@media (prefers-reduced-motion: reduce) {
-		.image-link :global(.fade-image) {
-			opacity: 1;
-			transition: none;
-		}
-	}*/
 	h2 {
 		margin: var(--space-3) 0 var(--space-2);
 		font-family: var(--font-post-title);
-		font-size: clamp(1.75rem, 1.4rem + 1.25vw, 2.25rem);		font-weight: 400;
+		font-size: 1.75rem;
+		font-weight: 400;
 		line-height: 1.15;
 	}
 	h2 a {
@@ -109,7 +150,20 @@ const { image, title, description, pubDate, href } = Astro.props;
 	.post-card-body :global(time) {
 		display: block;
 		margin-top: auto;
-		text-align: right;
 		color: var(--color-text-muted);
+		text-align: right;
 	}
+	/*@media (prefers-reduced-motion: reduce) {
+		.post-card,
+		.post-card:hover,
+		.post-card:focus-within {
+			transition: none;
+			transform: none;
+		}
+
+		.image-link :global(.fade-image) {
+			opacity: 1;
+			transition: none;
+		}
+	}*/
 </style>

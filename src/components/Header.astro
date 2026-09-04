@@ -165,7 +165,7 @@ const { compact = false, title = "" } = Astro.props;
 	}
 	@media (min-width: 64rem) {
 		.site-header:not(.compact) {
-			min-height: 27rem;
+			min-height: 24rem;
 		}
 		.site-header:not(.compact) .header-art {
 			left: 50%;
@@ -176,9 +176,6 @@ const { compact = false, title = "" } = Astro.props;
 			);
 			transform: translateX(-50%);
 		}
-		.header-inner {
-			padding-inline: 1.25rem;
-		}
 		.compact .header-inner {
 			max-width: var(--content-max-desktop);
 			padding-inline: var(--space-5);
@@ -188,7 +185,7 @@ const { compact = false, title = "" } = Astro.props;
 				var(--space-4),
 				calc((100% - var(--content-max-desktop)) / 2 + var(--space-4))
 			);
-			bottom: 4.5rem;
+			bottom: 2rem;
 			width: 45rem;
 			max-width: calc(100% - 2 * var(--space-4));
 		}
