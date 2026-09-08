@@ -105,15 +105,17 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 		font-weight: 700;
 	}
 	.prose :global(figure) {
-		width: 100%;
-		max-width: 35rem;
+		width: fit-content;
 		margin-inline: auto;
 		padding: var(--space-2);
 		background: var(--color-paper);
 		border-radius: 0;
 		box-shadow: var(--shadow);
 	}
-	.prose :global(.post-figure figcaption) {
+	.prose :global(.post-image) {
+		max-width: 35rem;
+	}
+	.prose :global(figcaption) {
 		padding-top: var(--space-2);
 		text-align: center;
 		font-size: var(--font-body-size);
@@ -124,6 +126,7 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 	.prose :global(button) {
 		background: transparent;
     border: 0;
+		padding: 0;
 	}
 	dialog button {
 		display: block;
