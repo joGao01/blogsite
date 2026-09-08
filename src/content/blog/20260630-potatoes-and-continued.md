@@ -1,9 +1,10 @@
 ---
 layout: blog
-title: "June Was About Potatoes, Mostly"
-description: On making a potato-shaped cake with no cake-baking experience to speak of in 90 degree weather
+title: June Was About Potatoes, Mostly
+description: On making a potato-shaped cake with no cake-baking experience to
+  speak of in 90 degree weather
 pubDate: 2026-08-03T15:46:00.000-04:00
-heroImage: /images/blog/toji-temple.jpg
+heroImage: /images/blog/20260606_152946.webp
 ---
 
 ## ![](IMAGE\_PLACEHOLDER)
