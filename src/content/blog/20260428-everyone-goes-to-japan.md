@@ -1,24 +1,21 @@
 ---
 layout: blog
-title: "Everyone goes to Japan Eventually"
+title: Everyone goes to Japan Eventually
 description: Reflections on being in Japan while unemployed and in my mid-twenties
 pubDate: 2026-06-09T04:46:00.000-04:00
-heroImage: /images/blog/toji-temple.jpg
+heroImage: /images/blog/sakura.webp
 ---
-
-![](IMAGE\_PLACEHOLDER)
-
 Almost every twenty-something year old in an uncertain and/or transitive state of their life makes an eventual pilgrimage to Japan. And it turns out I am no outlier.
 
 Across two weeks at the beginning of April, I traveled the well-worn “Golden Route,” hitting Tokyo, Hakone, Kyoto, Nara, and Osaka. My misadventures in each city are documented in other blog posts, but I have some final things to say about the experience.
 
 ## Their Milk Might Be Better
 
-![](IMAGE\_PLACEHOLDER)
+![](/images/blog/thing-japan.webp)
 
 Not all the milk I had was equally mind-blowing, but on average, it seemed that the milk in Japan tasted richer and fuller than milk in the US. I am a long time drinker of the somewhat-bougier Horizon milk in the US, but I still felt that the milk I had in Japan was leagues above it. What’s up with that?
 
-![](IMAGE\_PLACEHOLDER)
+![](/images/blog/milk.webp)
 
 I skimmed this [reddit thread](https://www.reddit.com/r/japanlife/comments/1c48bn1/how_does_the_milk_in_japan_compare_to_where_youre/) where people debate how Japanese milk compares to milk around the world, and while Japanese milk seems to be pretty well-received overall, it apparently doesn’t compare to Irish and New Zealand milk. I suppose I need to go to those countries next to taste them for myself.
 
@@ -32,7 +29,7 @@ I was left trying to buy fibrous foods at the Konbini based solely on vibes, hop
 
 My personal pick of choice was the **Kagome Acai & Berry Smoothie**, which from the ingredients sounds like it should have fiber. Whether it actually does shall remain a mystery.
 
-![](IMAGE\_PLACEHOLDER)
+![](/images/blog/kagome.webp)
 
 ## The Locals Are Not Fluent In English
 
@@ -46,15 +43,15 @@ I’ve been learning Japanese on and off since I was 15, in a fashion that can o
 
 Disclaimer: I can’t guarantee that any of the Japanese in the following bullet points is grammatically correct. Only that it worked to facilitate the desired interaction and outcome.
 
-- Being able to politely decline a bag at the convenience store register (いいえ、大丈夫です)
-- Buying stamps to send postcards to the US (切ってください。アメリカにポストカードを送るつもりです。)
+* Being able to politely decline a bag at the convenience store register (いいえ、大丈夫です)
+* Buying stamps to send postcards to the US (切ってください。アメリカにポストカードを送るつもりです。)
 
-![](IMAGE\_PLACEHOLDER)
+![](/images/blog/stamp.webp)
 
-- Asking to exchange a 1000-yen bill for 100-yen coins for gachapon (百円玉に崩してもらえませんか) – this one is surprisingly useful because Japan is a Gachapon-ful place
-- Asking the street vendor if I could look at a bag I was interested in (カバンの中見て大丈夫ですか) – The bag quality was up to my standards and I purchased it!
+* Asking to exchange a 1000-yen bill for 100-yen coins for gachapon (百円玉に崩してもらえませんか) – this one is surprisingly useful because Japan is a Gachapon-ful place
+* Asking the street vendor if I could look at a bag I was interested in (カバンの中見て大丈夫ですか) – The bag quality was up to my standards and I purchased it!
 
-![](IMAGE\_PLACEHOLDER)
+![](/images/blog/onigiri-bag.webp)
 
 Obviously, I did not remember all these words off the top of my head, but the life hack is to look up the word on Google once, and then remember it and use it for the rest of the trip.
 
@@ -62,11 +59,11 @@ Obviously, I did not remember all these words off the top of my head, but the li
 
 You can't spell language-learner without some Ls.
 
-- A convenience store worker at the Minowa Family Mart calling me and my friends “gaijin-san” after I tried to ask him about an Animal Crossing promotion. We got the promo item, but at what cost!!
+* A convenience store worker at the Minowa Family Mart calling me and my friends “gaijin-san” after I tried to ask him about an Animal Crossing promotion. We got the promo item, but at what cost!!
 
-![](IMAGE\_PLACEHOLDER)
+![](/images/blog/animal-crossing-bag.webp)
 
-- Every time I asked staff/customer service a question in Japanese, and the person responded in Japanese that I didn’t understand. Minus 1000 aura.
-- Being able to read katakana at a bakery, but all the katakana is for french pastry names that I wouldn't know even if it had been in English. This happens because they're super French-pilled over there.
+* Every time I asked staff/customer service a question in Japanese, and the person responded in Japanese that I didn’t understand. Minus 1000 aura.
+* Being able to read katakana at a bakery, but all the katakana is for french pastry names that I wouldn't know even if it had been in English. This happens because they're super French-pilled over there.
 
 My non-professional advice to other self-taught Japanese-language learners who are visiting Japan is to practice listening to spoken Japanese, especially words that you might hear during a rote customer service/cashier interaction.
