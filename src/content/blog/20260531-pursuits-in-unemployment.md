@@ -12,7 +12,7 @@ Fresh off of my trip to Japan and loaded with vacation pictures, I decided to ta
 
 ![watercolor painting of toji temple in Kyoto](/images/blog/toji-watercolor.webp)
 
-Painting of Toji Temple in KyotoIn response to short-form video and AI-generated content, I have developed a newfound appreciation for traditional media. Watercolor is the easy choice. It doesn’t require ventilation and special binders like oil paints do, and it doesn’t pose the environmental/wastewater issues of pouring paint water down the drain like acrylic paints do.
+In response to short-form video and AI-generated content, I have developed a newfound appreciation for traditional media. Watercolor is the easy choice. It doesn’t require ventilation and special binders like oil paints do, and it doesn’t pose the environmental/wastewater issues of pouring paint water down the drain like acrylic paints do.
 
 I have a complicated relationship with watercolor. I prefer to move through life as a perfectionist, so my usual medium of choice is color pencil. It offers precision, erasability, and resistance to smudging.
 
