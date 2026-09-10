@@ -107,13 +107,13 @@ const { compact = false, title = "" } = Astro.props;
 		color: white;
 		font-family: var(--font-title);
 		font-size: var(--font-title-size);
-		line-height: 0.95;
+		line-height: 1.40;
 		text-decoration: none;
 		letter-spacing: 0.02em;
 	}
 	.back-link {
 		position: relative;
-		margin-top: 0.15rem;
+		margin-top: 0.35rem;
 		color: white;
 		font-size: 2.25rem;
 		line-height: 1;
@@ -126,7 +126,7 @@ const { compact = false, title = "" } = Astro.props;
 		width: 100%;
 		max-width: var(--content-max);
 		margin-inline: auto;
-		padding-inline: var(--space-5);
+		padding-inline: var(--space-4);
 	}
 	.compact .header-art {
 		inset: 0 0 auto auto;
@@ -138,11 +138,15 @@ const { compact = false, title = "" } = Astro.props;
 		display: none;
 	}
 	.compact .site-title {
-		left: 4.25rem;
-		bottom: 1.55rem;
-		max-width: calc(100% - 9rem);
-		font-size: 2.1rem;
+		left: 4rem;
+		max-width: calc(100% - 6rem);
+		font-size: 1.95rem;
 		white-space: nowrap;
+		overflow: scroll;
+		scrollbar-width: none;
+	}
+	.compact .site-title::-webkit-scrollbar {
+  	display: none;
 	}
 	/**space beside centered <main>
 	+ .surface’s internal padding
@@ -150,9 +154,6 @@ const { compact = false, title = "" } = Astro.props;
 	@media (min-width: 48rem) {
 		.header-inner {
 			padding-inline: 1.25rem;
-		}
-		.compact .header-inner {
-			padding-inline: var(--space-5);
 		}
 		.site-header:not(.compact) .site-title {
 			left: max(
@@ -178,7 +179,6 @@ const { compact = false, title = "" } = Astro.props;
 		}
 		.compact .header-inner {
 			max-width: var(--content-max-desktop);
-			padding-inline: var(--space-5);
 		}
 		.site-header:not(.compact) .site-title {
 			left: max(
