@@ -46,7 +46,7 @@ export default defineConfig({
 			options: {
 				variants: [
 					{
-						src: ['./src/assets/fonts/IMFellDWPicaSC-Regular.ttf'],
+						src: ['./src/assets/fonts/IMFellDWPicaSC-Regular.woff'],
 						weight: 400,
 						style: 'normal',
 						display: 'swap',
@@ -62,7 +62,7 @@ export default defineConfig({
 			options: {
 				variants: [
 					{
-						src: ['./src/assets/fonts/Cuprum-VariableFont_wght.ttf'],
+						src: ['./src/assets/fonts/Cuprum-VariableFont_wght.woff'],
 						weight: '400 700',
 						style: 'normal',
 						display: 'swap',
