@@ -1,4 +1,5 @@
 ---
+import PagefindConfig from "astro-pagefind/components/PagefindConfig.astro";
 import { Image } from "astro:assets";
 import blogHeader from "../assets/blog-header.JPG";
 import menuIcon from "../assets/menu.svg";
@@ -15,7 +16,7 @@ const { compact = false, title = "" } = Astro.props;
 <header class:list={["site-header", { compact }]}>
 	<SideMenu />
 	<div class="header-inner">
-		<Image class="header-art" src={blogHeader} alt="" aria-hidden="true" />
+		<Image class="header-art" src={blogHeader} alt="" aria-hidden="true" loading="eager"/>
 		<button
 			class="menu-toggle"
 			type="button"
@@ -34,6 +35,12 @@ const { compact = false, title = "" } = Astro.props;
 		<a class="site-title" href="/"
 			>{title !== "" ? title : SITE_TITLE}</a
 		>
+		{
+			!compact && (
+				<PagefindConfig />
+				<pagefind-searchbox class="search"></pagefind-searchbox>
+			)
+		}
 	</div>
 </header>
 <script>
@@ -62,18 +69,26 @@ const { compact = false, title = "" } = Astro.props;
 </script>
 <style>
 	.site-header {
+		--left-tablet: max(
+				var(--space-4),
+				calc((100% - var(--content-max)) / 2 + var(--space-4))
+			);
+		--left-desktop: max(
+				var(--space-4),
+				calc((100% - var(--content-max-desktop)) / 2 + var(--space-4))
+			);
 		position: relative;
 		min-height: var(--header-height);
 		background: var(--color-blue);
 		color: white;
-		overflow: hidden;
+		overflow: visible;
 	}
 	.header-inner {
 		position: relative;
 		min-height: inherit;
 		padding: var(--space-4);
 		display: flex;
-		align-items: flex-start;
+		flex-direction: column;
 	}
 	.header-art {
 		position: absolute;
@@ -111,6 +126,15 @@ const { compact = false, title = "" } = Astro.props;
 		text-decoration: none;
 		letter-spacing: 0.02em;
 	}
+	.site-header:not(.compact) .site-title {
+		position: relative;
+		left: auto;
+		bottom: auto;
+		margin-top: auto;
+	}
+	.site-header:not(.compact) pagefind-searchbox.search {
+		margin-top: var(--space-3);
+	}
 	.back-link {
 		position: relative;
 		margin-top: 0.35rem;
@@ -121,6 +145,7 @@ const { compact = false, title = "" } = Astro.props;
 	}
 	.compact {
 		min-height: 5rem;
+		overflow: hidden;
 	}
 	.compact .header-inner {
 		width: 100%;
@@ -156,10 +181,7 @@ const { compact = false, title = "" } = Astro.props;
 			padding-inline: 1.25rem;
 		}
 		.site-header:not(.compact) .site-title {
-			left: max(
-				var(--space-4),
-				calc((100% - var(--content-max)) / 2 + var(--space-4))
-			);
+			margin-left: calc(var(--left-tablet) - 1.25rem);
 			width: 22rem;
 			max-width: calc(100% - 2 * var(--space-4));
 		}
@@ -181,11 +203,7 @@ const { compact = false, title = "" } = Astro.props;
 			max-width: var(--content-max-desktop);
 		}
 		.site-header:not(.compact) .site-title {
-			left: max(
-				var(--space-4),
-				calc((100% - var(--content-max-desktop)) / 2 + var(--space-4))
-			);
-			bottom: 2rem;
+			margin-left: calc(var(--left-desktop) - 1.25rem);
 			width: 45rem;
 			max-width: calc(100% - 2 * var(--space-4));
 		}

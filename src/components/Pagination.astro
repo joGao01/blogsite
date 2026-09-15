@@ -15,7 +15,7 @@ const urlFor = (page: number) => (page === 1 ? "/blog" : `/blog/${page}`);
 					← <span>Previous</span>
 				</a>
 			) : (
-				<span class="disabled" aria-disabled="true">
+				<span class="prev disabled" aria-disabled="true">
 					← <span>Previous</span>
 				</span>
 			)}
@@ -36,7 +36,7 @@ const urlFor = (page: number) => (page === 1 ? "/blog" : `/blog/${page}`);
 					<span>Next</span> →
 				</a>
 			) : (
-				<span class="disabled" aria-disabled="true">
+				<span class="next disabled" aria-disabled="true">
 					<span>Next</span> →
 				</span>
 			)}
@@ -65,16 +65,21 @@ const urlFor = (page: number) => (page === 1 ? "/blog" : `/blog/${page}`);
 	.disabled {
 		color: white;
 		text-decoration: none;
-		text-align: center;
 		font-size: 0.95rem;
 	}
 	.disabled {
 		opacity: 0.45;
 	}
+	.prev {
+		text-align: right;
+	}
+	.next {
+		text-align: left;
+	}
 	select {
 		width: 100%;
 		padding: 0.7rem 0.9rem;
-		border: 1px solid var(--color-border);
+		border: none;
 		border-radius: 0.55rem;
 		background: white;
 		color: var(--color-text);

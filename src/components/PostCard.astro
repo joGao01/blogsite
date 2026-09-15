@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import FormattedDate from "./FormattedDate.astro";
 interface Props {
 	image?: string;
@@ -14,7 +15,7 @@ const { image, title, description, pubDate, href } = Astro.props;
 	<a class="image-link" href={href} aria-label={`Read ${title}`}
 		>{
 			image ? (
-				<img src={image} width="680" height="680" alt="" loading="lazy" class="fade-image" />
+				<Image src={image} width="680" height="680" alt="" loading="lazy" class="fade-image" />
 			) : (
 				<span class="image-placeholder" aria-hidden="true" />
 			)
@@ -29,7 +30,6 @@ const { image, title, description, pubDate, href } = Astro.props;
 	</div>
 </article>
 <script>
-	// TODO: fade in isn't working yet
 	document.querySelectorAll<HTMLImageElement>(".fade-image").forEach((image) => {
 		const reveal = () => image.classList.add("is-loaded");
 
@@ -122,7 +122,7 @@ const { image, title, description, pubDate, href } = Astro.props;
 	}
 	.image-link :global(.fade-image) {
 		opacity: 0;
-		transition: opacity 1000ms ease;
+		transition: opacity 1500ms ease;
 	}
 	.image-link :global(.fade-image.is-loaded) {
 		opacity: 1;

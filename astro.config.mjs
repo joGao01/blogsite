@@ -5,11 +5,12 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
 import { unified } from "@astrojs/markdown-remark";
 import rehypeBlogImages from './src/markdown-plugins/rehype-blog-images.mjs';
+import pagefind from "astro-pagefind";
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
-	integrations: [mdx(), sitemap()],
+	site: 'https://this-couldve-been-an-email.netlify.app',
+	integrations: [mdx(), sitemap(), pagefind()],
 	markdown: {
 		processor: unified({
 			rehypePlugins: [rehypeBlogImages],
