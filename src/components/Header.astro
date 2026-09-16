@@ -179,9 +179,10 @@ const { compact = false, title = "" } = Astro.props;
 	@media (min-width: 48rem) {
 		.header-inner {
 			padding-inline: 1.25rem;
+			padding: var(--space-5);
 		}
 		.site-header:not(.compact) .site-title {
-			margin-left: calc(var(--left-tablet) - 1.25rem);
+			margin-left: var(--left-tablet);
 			width: 22rem;
 			max-width: calc(100% - 2 * var(--space-4));
 		}
@@ -203,7 +204,7 @@ const { compact = false, title = "" } = Astro.props;
 			max-width: var(--content-max-desktop);
 		}
 		.site-header:not(.compact) .site-title {
-			margin-left: calc(var(--left-desktop) - 1.25rem);
+			margin-left: var(--left-desktop);
 			width: 45rem;
 			max-width: calc(100% - 2 * var(--space-4));
 		}

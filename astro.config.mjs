@@ -50,7 +50,9 @@ export default defineConfig({
 						src: ['./src/assets/fonts/IMFellDWPicaSC-Regular.woff'],
 						weight: 400,
 						style: 'normal',
-						display: 'swap',
+						// This face is used for the prominent site title. `swap` allows
+						// a fallback-font paint even when the font is preloaded.
+						display: 'block',
 					},
 				],
 			},

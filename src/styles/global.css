@@ -19,7 +19,7 @@
   --space-4: 1rem;
   --space-5: 1.5rem;
   --space-6: 2rem;
-  --header-height: 16rem;
+  --header-height: 18rem;
   --content-max: 46rem;
   --content-max-desktop: 80rem;
   --shadow: 0 2px 4px rgb(24 42 78/0.35);
@@ -102,7 +102,8 @@ pagefind-searchbox.search {
   width: 100%;
 	max-width: var(--content-max);
   text-align: right;
-  padding-inline: var(--space-4);
+  min-height: var(--pf-input-height);
+  padding-inline: 0;
 }
 pagefind-searchbox.search .pf-searchbox-dropdown {
   --pf-background: var(--color-paper);
@@ -120,6 +121,11 @@ pagefind-searchbox.search .pf-searchbox-input {
   .post-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  pagefind-searchbox.search {
+    width: 100%;
+    max-width: var(--content-max);
+    padding-inline: var(--space-4);
+  }
 }
 @media (min-width: 64rem) {
   main {
@@ -130,5 +136,6 @@ pagefind-searchbox.search .pf-searchbox-input {
   }
   pagefind-searchbox.search {
     max-width: var(--content-max-desktop);
+    padding-inline: var(--space-4);
   }
 }
