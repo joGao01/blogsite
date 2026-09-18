@@ -24,3 +24,23 @@ Part of me also recognized that my friends, who normally never talked about spor
 That’s how I found myself at Seven Sins, an Irish-pub-slash-sports-bar, on the Saturday of the England vs Norway quarterfinal game. I had four friends in tow with me, none of whom usually watched soccer. Some of us really wanted to see Erling Haaland’s Norway team win. Others simply wanted to see England lose. For me, it was a combination of both.
 
 I had specifically picked an Irish pub to avoid supporters of the English team. We were mostly successful in this, though one of my friends, who had to leave halfway through the game, reported that prospective game-watchers out front were complaining about how many Norway fans there were in the bar. It’s an Irish pub, bud. Get over it.
+
+For those 90 minutes, I joined the rest of the bar in cheering when Norway scored or blocked, and booing when England did the same. This drew frowns from a table of very stern, British-looking, middle-aged men near us. (Once again, it’s an Irish pub. Get over it!)
+I still didn’t know what an offside was, but it didn’t matter. I was having a great time doing the viking row chant with strangers in a sports bar and driving my England-supporting friends up the wall by rooting for the enemy team.
+
+[screenshot]
+
+For the first time, I understood that to be a real enjoyer of team sports, you had to be a little bit of a hater.
+
+I’m no stranger to LARPing for sports. I have been to a WNBA game. In June, I was saying “Knicks in Four” and “Knicks in Five” without having watched a single Knicks vs Spurs game. I didn’t even know what “Knicks in four” meant before June. But this world cup was the hardest I had ever gone. 
+
+At some point, you might not even be LARPing anymore. 
+
+Spoiler alert: Norway lost that game, but I went on to watch both semifinal matches from the comfort of my own home with a free 3-day trial of Fox One. 
+
+During the semifinal match between England and Argentina, I switched over to rooting for England, because while the English team played dirty, the Argentinian team somehow confused the World Cup for WWE. I’m obviously no expert, but it doesn’t seem right for a team to try to win by mainly tackling and tripping other players for 90 minutes. It’s not even fun to watch.
+
+When England lost to Argentina, I decided I needed to see Argentina’s demise as well[^1]. I was not an honorable World Cup watcher but the Argentinian team were not honorable players either.
+
+---
+[^1]: I have since come around to the opinion that Messi is fine and a good player, but god, his team sucked
