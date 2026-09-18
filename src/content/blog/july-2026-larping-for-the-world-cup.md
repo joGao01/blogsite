@@ -42,7 +42,15 @@ During the semifinal match between England and Argentina, I switched over to roo
 
 When England lost to Argentina, I decided I needed to see Argentina’s demise as well[^1]. I was not an honorable World Cup watcher but the Argentinian team were not honorable players either.
 
-I was almost always rooting for the losing team. And yes, I typically picked the underdog, but in the Spain vs France semifinal, I was rooting for France (the favorite), and they still lost. After a while, it wears on your psyche a little.
+I was almost always rooting for the losing team. While I did typically pick the underdog, I wanted France to win their semifinal game, and they still lost. After a while, it wears on your psyche a little, like maybe the universe is playing a silly little inconsequential trick on you.
+
+Which is why I placed two dollars on Argentina winning the final.
+
+Specifically, I asked my friend who was on Kalshi to do it for me, because I didn’t support the current app-based prediction markets on principle and more importantly, I was too lazy to create an account for such a silly reason.
+
+I hated the Argentinian team with the burning passion of someone who had only started following the World Cup two weeks ago. A team that played the way they did would not be allowed to win the World Cup in a good and just world. If the universe wanted me to continue taking emotional Ls, then I wanted a few bucks in back exchange.
+
+Some people use stock options as a gambling tool, but I can use sports betting as an emotional hedging tool.
 
 
 ---
