@@ -52,6 +52,11 @@ I hated the Argentinian team with the burning passion of someone who had only st
 
 Some people use stock options as a gambling tool, but I can use sports betting as an emotional hedging tool.
 
+I must report with some regret that I did not actually watch the final game because I was at Ikea collecting a meatball flavored lollipop instead. 
+
+I kept up with the game through the live scoreboard on Google over some delicious plant balls. I followed the reactions of my friends through their messages, which is how I know that nothing really happened, the muppets were at the half-time show, and then Argentina flipped a guy in the air and got red carded. Spain finally scored a goal 103 minutes into the game, and then they started fighting on the field. 
+
+My emotional hedge worked. Two dollars was a small price to pay for defeating evil.
 
 ---
 [^1]: I have since come around to the opinion that Messi is fine and a good player, but god, his team sucked
