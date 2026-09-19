@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import Pagination from "../../components/Pagination.astro";
 import PostCard from "../../components/PostCard.astro";
-import { POSTS_PER_PAGE, SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import { POSTS_PER_PAGE, SITE_DESCRIPTION, BLOG_TITLE } from "../../consts";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 const allPosts = (await getCollection("blog")).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -11,7 +11,7 @@ const posts = allPosts.slice(0, POSTS_PER_PAGE);
 const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
 ---
 
-<BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}
+<BaseLayout title={BLOG_TITLE} description={SITE_DESCRIPTION}
 	><section class="surface" aria-labelledby="blog-heading">
 		<ul class="post-grid">
 			{

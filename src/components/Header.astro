@@ -4,7 +4,7 @@ import { Image } from "astro:assets";
 import blogHeader from "../assets/blog-header.JPG";
 import menuIcon from "../assets/menu.svg";
 import arrowIcon from "../assets/arrow_back.svg";
-import { SITE_TITLE } from "../consts";
+import { BLOG_TITLE } from "../consts";
 import SideMenu from "./SideMenu.astro";
 interface Props {
 	compact?: boolean;
@@ -33,7 +33,7 @@ const { compact = false, title = "" } = Astro.props;
 			)
 		}
 		<a class="site-title" href="/"
-			>{title !== "" ? title : SITE_TITLE}</a
+			>{title !== "" ? title : BLOG_TITLE}</a
 		>
 		{
 			!compact && (

@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import BaseLayout from "./BaseLayout.astro";
 import closeButton from "../assets/close-white.svg";
-import { SITE_TITLE } from "../consts";
+import { BLOG_TITLE } from "../consts";
 type Props = CollectionEntry<"blog">["data"];
 const { title, description, pubDate, updatedDate } = Astro.props;
 ---
@@ -44,7 +44,7 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 	});
 </script>
 
-<BaseLayout title={SITE_TITLE} description={description} compactHeader>
+<BaseLayout title={BLOG_TITLE} description={description} compactHeader>
 	<article class="blog-post">
 		<header class="post-heading">
 			<h1>{title}</h1><div class="post-meta">
@@ -61,7 +61,7 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 	</article>
 	<dialog class="image-lightbox">
 		<button class="lightbox-close" type="button" aria-label="Close image"
-			><img src={closeButton.src}/></button
+			><img src={closeButton.src} /></button
 		>
 		<img class="lightbox-image" alt="" />
 		<p class="lightbox-caption"></p>
@@ -120,13 +120,14 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 		padding-top: var(--space-2);
 		text-align: center;
 		font-size: var(--font-body-size);
+		max-width: 30rem;
 	}
 	.prose :global(img:hover) {
 		cursor: pointer;
 	}
 	.prose :global(button) {
 		background: transparent;
-    border: 0;
+		border: 0;
 		padding: 0;
 	}
 	dialog button {
@@ -164,11 +165,11 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 		z-index: 1;
 	}
 	.lightbox-caption {
-		color: var(--color-paper)
+		color: var(--color-paper);
 	}
 	.lightbox-caption:empty {
 		display: none;
-	} 
+	}
 	@media (min-width: 48rem) {
 		/* larger padding for tablet/desktop screens*/
 		.blog-post {
