@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "July 2026: LARPing for the World Cup"
-description: And how you don't really need to enjoy soccer to enjoy the World Cup
+description: It is possible to enjoy the World Cup even if you don't care about soccer
 pubDate: 2026-09-18T22:34:00.000-04:00
 heroImage: /images/blog/img_20260918_175103_617.webp
 ---
@@ -69,7 +69,7 @@ The lesson here isn’t to partake in sports betting[^2] or any random sport. I 
 
 As a person who isn’t into sports, it’s easy to write off large sporting events as something that isn’t for me. But in between the people with a strong allegiance to a team and the people with money in it, there’s room for those who are just there to vibe with their friends. We should relish in the opportunities we have to hang out and make memories.
 
-Hate responsibly and don’t gamble.
+Be open to new experiences, hate responsibly, and don’t gamble.
 
 - - -
 
