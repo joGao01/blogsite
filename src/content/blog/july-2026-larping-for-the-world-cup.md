@@ -5,7 +5,7 @@ description: And how you don't really need to enjoy soccer to enjoy the World Cu
 pubDate: 2026-09-16T23:22:00.000-04:00
 heroImage: /images/blog/blog-placeholder-5.jpg
 ---
-Before July, I had never watched a game of soccer. On July 15, I had $2 on Argentina in the World Cup final.
+Before July, I had never watched a game of soccer. On July 15, I had two dollars on Argentina in the World Cup final.
 
 For the longest time, I was convinced that there were only three types of people who watched soccer: those with an allegiance to a team, those with an allegiance to a player, or those with money in it. None of these categories ever applied to me, and I didn’t find watching guys chasing a ball back and forth on a large field particularly exhilarating. So how did this happen?
 
@@ -48,7 +48,7 @@ Which is why I placed two dollars on Argentina winning the final.
 
 Specifically, I asked my friend who was on Kalshi to do it for me, because I didn’t support the current app-based prediction markets on principle and more importantly, I was too lazy to create an account for such a silly reason.
 
-I hated the Argentinian team with the burning passion of someone who had only started following the World Cup two weeks ago. A team that played the way they did would not be allowed to win the World Cup in a good and just world. If the universe wanted me to continue taking emotional Ls, then I wanted a few bucks in back exchange.
+I hated the Argentinian team with the burning passion of someone who had only started following the World Cup two weeks ago. A team that played the way they did would not be allowed to win in a good and just world. If the universe wanted me to continue taking emotional Ls, then I wanted a few bucks in back exchange.
 
 Some people use stock options as a gambling tool, but I can use sports betting as an emotional hedging tool.
 
@@ -56,7 +56,7 @@ I must report with some regret that I did not actually watch the final game beca
 
 I kept up with the game through the live scoreboard on Google over some delicious plant balls. I followed the reactions of my friends through their messages, which is how I know that nothing really happened, the muppets were at the half-time show, and then Argentina flipped a guy in the air and got red carded. Spain finally scored a goal 103 minutes into the game, and then they started fighting on the field. 
 
-My emotional hedge worked. Two dollars was a small price to pay for defeating evil.
+Two dollars was a small price to pay for defeating evil.
 
 ---
 [^1]: I have since come around to the opinion that Messi is fine and a good player, but god, his team sucked
