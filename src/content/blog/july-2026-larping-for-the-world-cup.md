@@ -2,8 +2,8 @@
 layout: blog
 title: "July 2026: LARPing for the World Cup"
 description: And how you don't really need to enjoy soccer to enjoy the World Cup
-pubDate: 2026-09-16T23:22:00.000-04:00
-heroImage: /images/blog/blog-placeholder-5.jpg
+pubDate: 2026-09-18T22:34:00.000-04:00
+heroImage: /images/blog/img_20260918_175103_617.webp
 ---
 Before July, I had never watched a game of soccer. On July 15, I had two dollars on Argentina in the World Cup final.
 
@@ -19,16 +19,19 @@ I’m waiting on the uptown 6 train platform the next day, on my way to visit a 
 
 Looking back, I could’ve chosen to ignore the messages, remaining blissfully unaware on the sidelines. I did not really care about the World Cup, but I felt an inexplicable compulsion to antagonize my England-supporting friend by telling her that I was rooting for the opposing team.
 
+![](/images/blog/screenshot_20260918-224230~2.webp "This was before I was actually watching games, which meant I was just being annoying for sport.")
+
 Part of me also recognized that my friends, who normally never talked about sports, were bringing up the World Cup as a bid for connection. Between the demands of life and work, it’s easy to fall into socially isolating habits, so it’s become increasingly important to me to intentionally snatch up these low-hanging opportunities to connect with friends. So I responded.
 
-That’s how I found myself at Seven Sins, an Irish-pub-slash-sports-bar, on the Saturday of the England vs Norway quarterfinal game. I had four friends in tow with me, none of whom usually watched soccer. Some of us really wanted to see Erling Haaland’s Norway team win. Others simply wanted to see England lose. For me, it was a combination of both.
+That’s how I found myself at [Seven Sins](https://sevensinsnyc.com/), an Irish-pub-slash-sports-bar, on the Saturday of the England vs Norway quarterfinal game. I had four friends in tow with me, none of whom usually watched soccer. Some of us really wanted to see Erling Haaland’s Norway team win. Others simply wanted to see England lose. For me, it was a combination of both.
 
 I had specifically picked an Irish pub to avoid supporters of the English team. We were mostly successful in this, though one of my friends, who had to leave halfway through the game, reported that prospective game-watchers out front were complaining about how many Norway fans there were in the bar. It’s an Irish pub, bud. Get over it.
 
 For those 90 minutes, I joined the rest of the bar in cheering when Norway scored or blocked, and booing when England did the same. This drew frowns from a table of very stern, British-looking, middle-aged men near us. (Once again, it’s an Irish pub. Get over it!)
+
 I still didn’t know what an offside was, but it didn’t matter. I was having a great time doing the viking row chant with strangers in a sports bar and driving my England-supporting friends up the wall by rooting for the enemy team.
 
-\[screenshot]
+![](/images/blog/screenshot_20260916-205432-edit.webp)
 
 For the first time, I understood that to be a real enjoyer of team sports, you had to be a little bit of a hater.
 
@@ -48,11 +51,15 @@ Which is why I placed two dollars on Argentina winning the final.
 
 Specifically, I asked my friend who was on Kalshi to do it for me, because I didn’t support the current app-based prediction markets on principle and more importantly, I was too lazy to create an account for such a silly reason.
 
+![](/images/blog/screenshot_20260916-142107.webp)
+
 I hated the Argentinian team with the burning passion of someone who had only started following the World Cup two weeks ago. A team that played the way they did would not be allowed to win in a good and just world. If the universe wanted me to continue taking emotional Ls, then I wanted a few bucks in back exchange.
 
 Some people use stock options as a gambling tool, but I can use sports betting as an emotional hedging tool.
 
 I must report with some regret that I did not actually watch the final game because I was at Ikea collecting a meatball flavored lollipop instead. 
+
+![](/images/blog/pxl_20260719_183149670~2.webp "This flavor was a mistake and Ikea should reflect on what they've done")
 
 I kept up with the game through the live scoreboard on Google over some delicious plant balls. I followed the reactions of my friends through their messages, which is how I know that nothing really happened, the muppets were at the half-time show, and then Argentina flipped a guy in the air and got red carded. Spain finally scored a goal 103 minutes into the game, and then they started fighting on the field. 
 
@@ -64,6 +71,7 @@ As a person who isn’t into sports, it’s easy to write off large sporting eve
 
 Hate responsibly and don’t gamble.
 
----
+- - -
+
 [^1]: I have since come around to the opinion that Messi is fine and a good player, but god, his team sucked
 [^2]: Kalshi would deny that they do sports betting, but they're wrong
