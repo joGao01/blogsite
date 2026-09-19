@@ -58,5 +58,11 @@ I kept up with the game through the live scoreboard on Google over some deliciou
 
 Two dollars was a small price to pay for defeating evil.
 
+The lesson here isn’t to partake in sports betting or any random sport. I have no interest in getting into non-World-Cup soccer any time soon, but my brief detour into the sport this summer has been a lot of fun. I developed a fondness for the dramatics of a televised soccer match, with the multiple-angle replays and slow-mo reactions from coaches on the sidelines. I bantered with people about the players and teams, telling a fellow volunteer at the food pantry that I didn’t think Argentina deserved to win.
+
+As a person who isn’t into sports, it’s easy to write off large sporting events as something that isn’t for me. But in between the people with a strong allegiance to a team and the people with money in it, there’s room for those who are just there to vibe with their friends. We should relish in the opportunities we have to hang out and make memories.
+
+Hate responsibly and don’t gamble.
+
 ---
 [^1]: I have since come around to the opinion that Messi is fine and a good player, but god, his team sucked
