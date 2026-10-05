@@ -44,13 +44,13 @@ To commemorate the occasion and illustrate why I so quickly accepted this job of
 
 * During a hiring manager round, I was asked to design Instagram in 20 minutes. The recruiter had not mentioned that the interview included a system design portion, so I was completely blindsided. Needless to say, it did not go well.
 
-  ![](/images/blog/screenshot-2026-10-04-210342.webp)
+![](/images/blog/screenshot-2026-10-04-210342.webp)
 * I was asked to take a 3-hour skills assessment for which I had to download HonorLock and use Google Chrome. I felt like I was being hazed, and they also did not think I did well enough.
 
-  ![](/images/blog/screenshot-2026-10-04-210802.webp)
+![](/images/blog/screenshot-2026-10-04-210802.webp)
 * I experienced a 5-hour interview loop where the interviews were scheduled back-to-back. A harrowing process for both interviewees and interviewers alike I'm sure, because across the five interviews, I learned that the interviewers themselves were also sitting in the same zoom call for five hours waiting for candidates to drop in. Despite feeling that I did fine, I received my rejection on a Saturday night.
 
-  ![](/images/blog/screenshot-2026-10-04-210939.webp)
+![](/images/blog/screenshot-2026-10-04-210939.webp)
 * During a different hiring manager round, I was asked to open up a notepad, share my screen, and write a simple Java implementation. I hadn't written Java in over several months at this point, so I thought I was cooked. A week and a half later, I received an invitation at 3am to schedule my next round of interviews.
 * A job listing that explicitly stated that the position was based in NYC responded to my application to ask if I would be open to relocating to DC because they were not hiring for software engineers in NYC.
 
@@ -59,3 +59,14 @@ To commemorate the occasion and illustrate why I so quickly accepted this job of
 All in all, I thoroughly enjoyed my period of unemployment, and am now looking forward to being back in Manhattan for 40 hours a week.
 
 ## I started watching 911, the American TV show
+
+For the initiated, 911 is a procedural drama that follows a group of fictional firefighters and paramedics as they respond to emergencies in the greater LA area. For years, I had seen it in the peripherals of my corners of the internet, but I had no interest in watching it.
+
+And then I saw the promotional posters of season 10 on Twitter, which features lava running down the streets of Los Angeles from what appears to be a volcano. 
+
+Like okay, you got me. Why is there a volcano in LA?
+
+So I resigned myself to starting a 9-season show two days before the first day at my full-time, in-person job.
+
+During my first week back at work, I would come home in the evening and watch a few episodes before bed.
+
