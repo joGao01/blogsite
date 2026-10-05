@@ -34,11 +34,11 @@ The timeline is as follows:
 
 ![indeed notification that reads "You’re hired by Fast Growing Startup."](/images/blog/screenshot-2026-10-04-201514.webp)
 
-It was about a month and a half from application to start date, which some would consider a miracle in this job market. It is also not lost on me that I used almost nothing of what I had spent months studying and learning to pass this interview. The only thing I had done to prepare for this interview was to familiarize myself with ChatGPT and practice SQL joins the morning of. 
+It was about a month and a half from application to start date, which some would consider a miracle in this job market. It is also not lost on me that I used almost nothing of what I had spent months studying and learning to pass this interview. The only thing I had done to prepare for it was to familiarize myself with ChatGPT and practice SQL joins the morning of. 
 
 I have long resigned myself to the fact that the universe loves playing silly little tricks on me. That said, I am better off for knowing practical applications of Redis and Kafka regardless.
 
-Work has been going well so far. I took down the shared development environment on my third day which is a new record for me, but nobody got mad at me.
+Work has been going well. I took down the shared development environment on my third day which is a new record for me, but nobody got mad at me.
 
 To commemorate the occasion and illustrate why I so quickly accepted this job offer, I will be listing some of the craziest interview experiences I’ve had with other companies in the past three months:
 
