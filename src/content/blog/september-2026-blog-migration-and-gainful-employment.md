@@ -4,7 +4,7 @@ title: "September 2026: Blog Migration and Gainful Employment"
 description: "In which I migrate my blog because blogspot's text editor was
   pissing me off. Also: I have a job now."
 pubDate: 2026-10-04T20:34:00.000-04:00
-heroImage: /images/blog/screenshot-2026-10-04-201514.webp
+heroImage: /images/blog/e46.webp
 ---
 ## I moved my blog
 
