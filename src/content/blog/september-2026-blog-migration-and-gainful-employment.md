@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: "September 2026: Blog Migration and Gainful Employment"
-description: "I migrated my blog because blogspot's text editor was pissing me
-  off. Also: I have a job now."
+description: "In which I migrate my blog because blogspot's text editor was
+  pissing me off. Also: I have a job now."
 pubDate: 2026-10-04T20:34:00.000-04:00
 heroImage: /images/blog/screenshot-2026-10-04-201514.webp
 ---
@@ -10,7 +10,9 @@ heroImage: /images/blog/screenshot-2026-10-04-201514.webp
 
 At the beginning of September, I started migrating my blog off Blogspot. With its inconsistent spacing between paragraphs and photos, the Blogspot editor had pissed me off one too many times. I landed on a custom Astro + Decap CMS solution where I could write posts in markdown that would be reliably rendered into HTML by Astro, eliminating the need to fight antiquated text editors.
 
-The site itself is a work in progress, but it has been working well so far. The [source code](https://github.com/joGao01/blogsite) is available to view on my github.
+The site itself is a work in progress, but it has been working well so far. The [source code](https://github.com/joGao01/blogsite) is available to view on my GitHub. (If you see any bugs, feel free to open an issue.)
+
+![picture of my github repository](/images/blog/screenshot-2026-10-04-205828.webp)
 
 My Codex subscription, which I had bought in order to pose as an AI-user for a few interviews, was a huge help in setting up the Astro framework boilerplate and hooking up Decap CMS. 
 
@@ -36,15 +38,23 @@ It was about a month and a half from application to start date, which some would
 
 I have long resigned myself to the fact that the universe loves playing silly little tricks on me. That said, I am better off for knowing practical applications of Redis and Kafka regardless.
 
-Work has been going well so far. I took down the shared development environment on my third day which is a new record for me, and nobody got mad at me.
+Work has been going well so far. I took down the shared development environment on my third day which is a new record for me, but nobody got mad at me.
 
 To commemorate the occasion and illustrate why I so quickly accepted this job offer, I will be listing some of the craziest interview experiences I’ve had with other companies in the past three months:
 
 * During a hiring manager round, I was asked to design Instagram in 20 minutes. The recruiter had not mentioned that the interview included a system design portion, so I was completely blindsided. Needless to say, it did not go well.
-* I was asked to take a 3-hour skills assessment for which I had to download HonorLock and use Google Chrome. I felt like I was being hazed.
+
+  ![](/images/blog/screenshot-2026-10-04-210342.webp)
+* I was asked to take a 3-hour skills assessment for which I had to download HonorLock and use Google Chrome. I felt like I was being hazed, and they also did not think I did well enough.
+
+  ![](/images/blog/screenshot-2026-10-04-210802.webp)
 * I experienced a 5-hour interview loop where the interviews were scheduled back-to-back. A harrowing process for both interviewees and interviewers alike I'm sure, because across the five interviews, I learned that the interviewers themselves were also sitting in the same zoom call for five hours waiting for candidates to drop in. Despite feeling that I did fine, I received my rejection on a Saturday night.
+
+  ![](/images/blog/screenshot-2026-10-04-210939.webp)
 * During a different hiring manager round, I was asked to open up a notepad, share my screen, and write a simple Java implementation. I hadn't written Java in over several months at this point, so I thought I was cooked. A week and a half later, I received an invitation at 3am to schedule my next round of interviews.
 * A job listing that explicitly stated that the position was based in NYC responded to my application to ask if I would be open to relocating to DC because they were not hiring for software engineers in NYC.
+
+![](/images/blog/75c2404224ceec5388a151444f04abad.webp)
 
 All in all, I thoroughly enjoyed my period of unemployment, and am now looking forward to being back in Manhattan for 40 hours a week.
 
