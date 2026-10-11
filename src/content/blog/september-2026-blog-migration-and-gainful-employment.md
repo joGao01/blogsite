@@ -73,7 +73,13 @@ Note: Welcome to the Jungle has different websites for US and EU, so make sure y
 
 We can debate at length whether leetcode-style interviews are a meaningful way to measure software engineering competence in 2026, but as long as companies still do them, Neetcode is the go to resource for problem breakdowns. 
 
+Plus, he makes motivational videos
+
+![Youtube video titled "Maybe some people should just give up"](/images/blog/screenshot-2026-10-11-111823.webp)
+
 ### [HelloInterview](https://www.hellointerview.com/) is goated for System Design Prep
+
+![](/images/blog/screenshot-2026-10-11-111638.webp)
 
 Mid-level and Senior-level software engineers are typically expected to complete at least one system design round. HelloInterview is one of the best resources because not only do they provide comprehensive write-ups for common questions, they also provide a solid framework on how to structure your response to the interviewer and the difference in expectations for mid-level vs senior vs staff engineers. 
 
