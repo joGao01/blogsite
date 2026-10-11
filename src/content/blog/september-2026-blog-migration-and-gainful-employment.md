@@ -90,3 +90,9 @@ They also make pretty good deep dives for must-know concepts like database shard
 There’s no formulaic way to prepare for startup interviews. You just go in and pray they don’t ask you to write a bash script from memory. 
 
 ![](/images/blog/screenshot_20260828-111014.webp)
+
+## Miscellaneous
+
+* I started watching 911 (the American procedural drama about firefighters in LA) because I saw the promotional poster for season 10 on Twitter, which features lava running down the streets of Los Angeles from what appears to be a volcano. Like okay, you got me. Why is there a volcano in LA?
+
+![](/images/blog/797336876_122348547830210852_5787289562494880910_n.webp)
