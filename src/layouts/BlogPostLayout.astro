@@ -3,7 +3,9 @@ import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import BaseLayout from "./BaseLayout.astro";
 import closeButton from "../assets/close-white.svg";
+import avatar from "../assets/avatar.svg";
 import { BLOG_TITLE } from "../consts";
+import { Image } from "astro:assets";
 type Props = CollectionEntry<"blog">["data"];
 const { title, description, pubDate, updatedDate } = Astro.props;
 ---
@@ -47,8 +49,13 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 <BaseLayout title={BLOG_TITLE} description={description} compactHeader>
 	<article class="blog-post">
 		<header class="post-heading">
-			<h1>{title}</h1><div class="post-meta">
-				<span>From: Jo<br />To: You</span><FormattedDate date={pubDate} />
+			<h1>{title}</h1>
+			<div class="post-meta">
+				<span class="inner-meta">
+					<Image src={avatar} alt=""></Image>
+					<span>From: Jo<br />To: You</span>
+				</span>
+				<FormattedDate date={pubDate} />
 			</div>{
 				updatedDate && (
 					<p>
@@ -91,9 +98,14 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 	.post-meta {
 		display: flex;
 		justify-content: space-between;
-		align-items: end;
+		align-items: flex-start;
 		gap: var(--space-3);
 		font-size: var(--font-body-size);
+	}
+	.inner-meta {
+		display: flex;
+		flex-direction: row;
+		gap: var(--space-4);
 	}
 	.prose {
 		line-height: 1.35;

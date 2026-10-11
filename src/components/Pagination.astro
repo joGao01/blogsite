@@ -11,7 +11,7 @@ const urlFor = (page: number) => (page === 1 ? "/blog" : `/blog/${page}`);
 	totalPages > 1 && (
 		<nav class="pagination" aria-label="Blog pages">
 			{currentPage > 1 ? (
-				<a href={urlFor(currentPage - 1)}>
+				<a class="prev" href={urlFor(currentPage - 1)}>
 					← <span>Previous</span>
 				</a>
 			) : (
@@ -32,7 +32,7 @@ const urlFor = (page: number) => (page === 1 ? "/blog" : `/blog/${page}`);
 				</>
 			</label>
 			{currentPage < totalPages ? (
-				<a href={urlFor(currentPage + 1)}>
+				<a class="next" href={urlFor(currentPage + 1)}>
 					<span>Next</span> →
 				</a>
 			) : (
