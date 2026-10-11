@@ -16,11 +16,11 @@ The site itself is a work in progress, but it has been working well so far. The 
 
 My Codex subscription, which I had bought in order to pose as an AI-user for a few interviews, was a huge help in setting up the Astro framework boilerplate and hooking up Decap CMS. 
 
-After the initial setup, I purposefully curtailed my usage of it because I’m uncomfortable with how much understanding you can potentially surrender just by having it build your entire website for you. This blog is for myself, and I have no reason to optimize for efficiency in its construction.
+After the initial setup, I curtailed my usage of it. It's uncomfortable how much understanding you can potentially surrender just by having it build your entire website for you. This blog is for myself, and I have no reason to optimize for efficiency in its construction.
 
 ## I have a job now
 
-After months of doing increasingly obscure leetcode questions, learning common system design questions front-to-back, and suffering the various humiliation rituals of 2026 software engineering interviews, I finally received an offer for a job that, anticlimactically, involved the least painful hiring process I had ever experienced.
+After months of doing increasingly [obscure leetcode questions](https://leetcode.com/problems/koko-eating-bananas/), learning common system design questions front-to-back, and suffering the various humiliation rituals of 2026 software engineering interviews, I finally received an offer for a job that, anticlimactically, involved the least painful hiring process I had ever experienced.
 
 The timeline is as follows:
 
@@ -40,33 +40,47 @@ I have long resigned myself to the fact that the universe loves playing silly li
 
 Work has been going well. I took down the shared development environment on my third day which is a new record for me, but nobody got mad at me.
 
-To commemorate the occasion and illustrate why I so quickly accepted this job offer, I will be listing some of the craziest interview experiences I’ve had with other companies in the past three months:
+### Museum of Failures
 
 * During a hiring manager round, I was asked to design Instagram in 20 minutes. The recruiter had not mentioned that the interview included a system design portion, so I was completely blindsided. Needless to say, it did not go well.
 
 ![](/images/blog/screenshot-2026-10-04-210342.webp)
+
 * I was asked to take a 3-hour skills assessment for which I had to download HonorLock and use Google Chrome. I felt like I was being hazed, and they also did not think I did well enough.
 
 ![](/images/blog/screenshot-2026-10-04-210802.webp)
+
 * I experienced a 5-hour interview loop where the interviews were scheduled back-to-back. A harrowing process for both interviewees and interviewers alike I'm sure, because across the five interviews, I learned that the interviewers themselves were also sitting in the same zoom call for five hours waiting for candidates to drop in. Despite feeling that I did fine, I received my rejection on a Saturday night.
 
 ![](/images/blog/screenshot-2026-10-04-210939.webp)
+
 * During a different hiring manager round, I was asked to open up a notepad, share my screen, and write a simple Java implementation. I hadn't written Java in over several months at this point, so I thought I was cooked. A week and a half later, I received an invitation at 3am to schedule my next round of interviews.
-* A job listing that explicitly stated that the position was based in NYC responded to my application to ask if I would be open to relocating to DC because they were not hiring for software engineers in NYC.
+* A job listing that explicitly stated that the position was based in NYC responded to my application to ask if I would be open to relocating to DC because they were not hiring for software engineers in NYC. Also the job was for a surveillance data aggregation company. Yuck.
 
 ![](/images/blog/75c2404224ceec5388a151444f04abad.webp)
 
-All in all, I thoroughly enjoyed my period of unemployment, and am now looking forward to being back in Manhattan for 40 hours a week.
+## Lessons for SWE job seekers
 
-## I started watching 911, the American TV show
+### LinkedIn is super giga cooked. Do not use it except to respond to recruiters
 
-For the initiated, 911 is a procedural drama that follows a group of fictional firefighters and paramedics as they respond to emergencies in the greater LA area. For years, I had seen it in the peripherals of my corners of the internet, but I had no interest in watching it.
+Of all the jobs I applied to, not one response came back from a job I applied to via LinkedIn. Referrals are a golden ticket, but as far as cold applications go, I achieved the best rates of response from [Welcome To the Jungle](https://app.welcometothejungle.com/), followed by [Hiring Cafe](https://hiringcafe.com/). 
 
-And then I saw the promotional posters of season 10 on Twitter, which features lava running down the streets of Los Angeles from what appears to be a volcano. 
+Only one company responded to me on Indeed, and it was the one that hired me, so I honestly feel like I just got lucky there.
 
-Like okay, you got me. Why is there a volcano in LA?
+Note: Welcome to the Jungle has different websites for US and EU, so make sure you're signing up on the US one if you're based in the US like me.
 
-So I resigned myself to starting a 9-season show two days before the first day at my full-time, in-person job.
+### [Neetcode](https://www.youtube.com/@NeetCode) is still goated for leetcode prep
 
-During my first week back at work, I would come home in the evening and watch a few episodes before bed.
+We can debate at length whether leetcode-style interviews are a meaningful way to measure software engineering competence in 2026, but as long as companies still do them, Neetcode is the go to resource for problem breakdowns. 
 
+### [HelloInterview](https://www.hellointerview.com/) is goated for System Design Prep
+
+Mid-level and Senior-level software engineers are typically expected to complete at least one system design round. HelloInterview is one of the best resources because not only do they provide comprehensive write-ups for common questions, they also provide a solid framework on how to structure your response to the interviewer and the difference in expectations for mid-level vs senior vs staff engineers. 
+
+They also make pretty good deep dives for must-know concepts like database sharding and partitioning, and common technologies, like Kafka and Redis. Some of their stuff is pay-walled, but the free stuff is more than enough in my opinion.
+
+### Startup interviews are a complete crapshoot
+
+There’s no formulaic way to prepare for startup interviews. You just go in and pray they don’t ask you to write a bash script from memory. 
+
+![](/images/blog/screenshot_20260828-111014.webp)
