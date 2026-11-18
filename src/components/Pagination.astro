@@ -4,7 +4,7 @@ interface Props {
 	totalPages: number;
 }
 const { currentPage, totalPages } = Astro.props;
-const urlFor = (page: number) => (page === 1 ? "/blog" : `/blog/${page}`);
+const urlFor = (page: number) => (page === 1 ? "/" : `/blog/${page}`);
 ---
 
 {

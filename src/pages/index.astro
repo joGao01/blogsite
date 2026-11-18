@@ -1,15 +1,18 @@
 ---
 import { getCollection } from "astro:content";
+import Pagination from "../components/Pagination.astro";
 import PostCard from "../components/PostCard.astro";
+import { POSTS_PER_PAGE, SITE_DESCRIPTION, BLOG_TITLE } from "../consts";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { SITE_DESCRIPTION, HOME_TITLE } from "../consts";
-const posts = (await getCollection("blog"))
-	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-	.slice(0, 3);
+const allPosts = (await getCollection("blog")).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+const posts = allPosts.slice(0, POSTS_PER_PAGE);
+const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
 ---
 
-<BaseLayout title={HOME_TITLE} description={SITE_DESCRIPTION}
-	><section class="surface" aria-labelledby="home-heading">
+<BaseLayout title={BLOG_TITLE} description={SITE_DESCRIPTION}
+	><section class="surface" aria-labelledby="blog-heading">
 		<ul class="post-grid">
 			{
 				posts.map((post) => (
@@ -24,17 +27,6 @@ const posts = (await getCollection("blog"))
 					</li>
 				))
 			}
-		</ul><p class="all-posts"><a href="/blog">All posts</a></p>
+		</ul><Pagination currentPage={1} totalPages={totalPages} />
 	</section></BaseLayout
 >
-<style>
-	.all-posts {
-		margin: var(--space-5) 0 0;
-		text-align: center;
-		text-transform: uppercase;
-	}
-	.all-posts a {
-		color: white;
-		font-weight: 700;
-	}
-</style>
